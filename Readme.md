@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Настя Сидорова](https://up.htmlacademy.ru/adaptive/25/user/1859049).
-* Наставник: `Олег Цыганов`.
+* Наставник: [Олег Цыганов](https://htmlacademy.ru/profile/olegtsyganov).
 
 ---
 
