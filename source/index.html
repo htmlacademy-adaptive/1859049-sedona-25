@@ -7,7 +7,7 @@
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo">
-        <img src="../source/img/logo.svg" width="185" height="96" alt="Отели Седоны">
+        <img class="main-header__img" src="../source/img/logo.svg" width="185" height="96" alt="Отели Седоны.">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
@@ -16,16 +16,16 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a>Главная</a>
+              <a class="site-list__link">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="foto.html">Фото и видео</a>
+              <a class="site-list__link" href="foto.html">Фото и видео</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Форма отзыва</a>
+              <a class="site-list__link" href="form.html">Форма отзыва</a>
             </li>
             <li class="site-list__item">
-              <a href="#">html Academy</a>
+              <a class="site-list__link" href="#">html Academy</a>
             </li>
           </ul>
         </div>
@@ -33,14 +33,15 @@
     </header>
     <main class="main-container">
       <div class="page-container">
-        <div class="index-background">
-          <img class="logo" src="img/welcome.png" alt="Logo">
+        <section class="promo">
+          <img class="promo-img" src="img/welcome.png" alt="Logo">
+        <div class="promo-wripper">
+          <h1 class="promo-title">Седона - небольшой городок в аризоне , <br> заслуживающий большего! </h1>
+          <p class="promo-text"> Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон</p>
         </div>
-        <div class="main-screen">
-          <h1 class="slide-title">Седона - небольшой городок в аризоне , <br> заслуживающий большего! </h1>
-          <p class="advantage-title"> Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон</p>
-        </div>
+        </section>
       </div>
+      <section class="advantages">
       <div class="advantages-wrapper">
       <ul class="advantages_list">
         <li class="advantages__item card-foto">
@@ -84,37 +85,36 @@
         </li>
       </ul>
       </div>
+      </section>
       <section class="search">
-        <h2 class="search-title">Заинтересовались?</h2>
-        <p class="search-text">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне </p>
+        <h2 class="search__title">Заинтересовались?</h2>
+        <p class="search__text">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне </p>
         <a class="search-link--button" href="#">
           Найти гостиницу
         </a>
       </section>
-      <section class="cart_user">
-        <img src="../source/img/map-mobile.jpg" alt="Наше местоположение на карте">
+      <section class="map">
+        <img class="map-img" src="../source/img/map-mobile.jpg" alt="Наше местоположение на карте">
       </section>
     </main>
     <footer class="main-footer">
       <div class="main-footer__wrapper">
         <div class="main-footer__hashtag">
-          <p>#visitsedona</p>
+          <p class="main-footer__hashtag_hotels">#visitsedona</p>
         </div>
-        <div class="main-footer__social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-            </li>
-            <li class="social__item">
+        <ul class="social social-list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
               <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
-            </li>
-          </ul>
-        </div>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+          </li>
+        </ul>
         <div class="main-footer__copyright">
-          <p>Разработано</p>
+          <p class="main-footer__copyright__link">Разработано</p>
         </div>
       </div>
     </footer>
