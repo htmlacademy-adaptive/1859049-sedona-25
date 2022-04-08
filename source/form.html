@@ -32,57 +32,65 @@
       </nav>
     </header>
     <main class="main-container">
-      <section class="headline">
-        <img class="headline__img" src="../source/img/form/back-desktop.jpg" alt="Logo">
-        <h2 class="headline__title">Оставьте свой отзыв</h2>
-        <p class="headline__title">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      <section class="heading">
+        <img class="heading__img" src="../source/img/form/back-desktop.jpg" alt="Logo">
+        <h2 class="heading__title">Оставьте свой отзыв</h2>
+        <p class="heading__subtitle">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       </section>
       <section class="form">
         <form class="form-user" method="post" action="https://echo.htmlacademy.ru" >
           <div class="form-user_name">
             <p class="form-user__title">Представьтесь:</p>
             <label class="form-user_naming" for="name">Имя*:</label>
-            <input class="form-user__inputtext" type="text" name="name" required>
+            <input class="form-user__inputtext" id="name" type="text" name="name" required>
             <label class="form-user_naming" for="secondname">Фамилия*:</label>
-            <input class="form-user__inputtext" type="text" name="secondname" required>
+            <input class="form-user__inputtext" id="secondname" type="text" name="secondname" required>
             <label class="form-user_naming" for="patronymic">Отчество:</label>
-            <input class="form-user__inputtext" type="text" name="patronymic">
+            <input class="form-user__inputtext" id="patronymic" type="text" name="patronymic">
           </div>
           <div class="form-user__contact">
             <p class="form-user__contact-title">Контактная информация:</p>
             <label class="form-user__contact-tel" for="tel">Контактный телефон*</label>
-            <input type="text" placeholder="Введите телефон" name="tel" required>
+            <input id="tel" type="text" placeholder="Введите телефон" name="tel" required>
             <label class="form-user__contact-mail" for="email">Электронная почта*</label>
-            <input type="text" placeholder="Введите e-mail" name="email" required>
+            <input id="email" type="text" placeholder="Введите e-mail" name="email" required>
           </div>
           <div class="form-user__opinion">
             <p class="form-user__opinion-title">Ваше общее впечатление:</p>
-            <label class="form-user__opinion-text"></label>
-              <input type="radio" name="question" value="Скорее положительное" checked>
+            <label class="form-user__opinion-text">
+            <input type="radio" name="question" value="Скорее положительное" checked>
               Скорее положительное
             </label>
             <label class="form-user__opinion-text">
-              <input type="radio" name="question" value="Скорее отрицательное">
+            <input type="radio" name="question" value="Скорее отрицательное">
               Скорее отрицательное
             </label>
             <label class="form-user__opinion-text">
-              <input type="radio" name="question" value="Затрудняюсь ответить">
+            <input type="radio" name="question" value="Затрудняюсь ответить">
               Затрудняюсь ответить
             </label>
           </div>
           <div class="form-user__attraction">
             <p class="form-user__attraction-text">Посещенные достопримечательности:</p>
+            <label class="form-user__attraction-name" for="bridge">
             <input id="bridge" type="checkbox" checked>
-            <label class="form-user__attraction-name" for="bridge">Мост Дьявола</label>
+            Мост Дьявола
+            </label>
+            <label class="form-user__attraction-name" for="mountain">
             <input id="mountain" type="checkbox" checked>
-            <label class="form-user__attraction-name" for="mountain">Гора-Колокол</label>
+            Гора-Колокол
+            </label>
+            <label class="form-user__attraction-name" for="park">
             <input id="park" type="checkbox" checked>
-            <label class="form-user__attraction-name" for="park">Слайд-парк</label>
+            Слайд-парк
+            </label>
+            <label class="form-user__attraction-name" for="rock">
             <input id="rock" type="checkbox">
-            <label class="form-user__attraction-name" for="rock">Красные скалы</label>
+            Красные скалы
+            </label>
           </div>
           <div class="form-user__subject">
-            <p>Опишите свои эмоции:</p>
+            <p class="form-user__subject-text">Опишите свои эмоции:</p>
             <textarea rows="5" cols="30">Опишите подробно все свои восторги</textarea>
             <p>*_обязательные поля</p>
           </div>
