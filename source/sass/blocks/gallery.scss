@@ -1,6 +1,10 @@
 .gallery__foto {
-  padding: 0 20px 0 20px;
   margin-bottom: 15px;
+}
+
+.gallery__item--block {
+  padding-left: 20px;
+  list-style-type: none;
 }
 
 .gallery__title {
@@ -9,7 +13,6 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: 700px;
-  padding: 0 125px 0 20px;
 }
 
 .gallery__subtitle {
@@ -17,7 +20,6 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: 400px;
-  padding: 0 125px 0 20px;
   margin-bottom: 11px;
 }
 
@@ -26,6 +28,5 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: 700px;
-  padding: 0 231px 0 57px;
   margin-bottom: 25px;
 }
