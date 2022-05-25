@@ -1,0 +1,21 @@
+.promo__img-box {
+  background: url("../../img/backgound-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.promo__title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.promo__text {
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 14px;
+}

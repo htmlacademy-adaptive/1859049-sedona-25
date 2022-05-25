@@ -1,0 +1,23 @@
+.motion-video--block {
+  padding: 0 26px 0 28px;
+}
+
+.motion-video__title {
+  text-transform: uppercase;
+  color: $color-black;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.motion-video__text {
+  color: $color-silver;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 38px;
+}

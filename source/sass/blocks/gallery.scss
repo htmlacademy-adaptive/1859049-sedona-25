@@ -1,0 +1,32 @@
+.gallery__foto {
+  margin-bottom: 15px;
+}
+
+.gallery__item--block {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.gallery__title {
+  color: $color-black;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700px;
+}
+
+.gallery__subtitle {
+  color: $color-silver;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400px;
+  margin-bottom: 11px;
+}
+
+.gallery__like {
+  color: $color-black;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700px;
+  margin-bottom: 25px;
+}

@@ -2,12 +2,14 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Седона</title>
+    <link href="./css/style.css" rel="stylesheet">
   </head>
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo">
-        <img class="main-header__img" src="../source/img/logo.svg" width="185" height="96" alt="Отели Седоны.">
+        <img class="main-header__img" src="./img/logo.svg" width="185" height="96" alt="Отели Седоны.">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
@@ -16,10 +18,10 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a class="site-list__link">Главная</a>
+              <a class="site-list__link" href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="foto.html">Фото и видео</a>
+              <a class="site-list__link" href="catalog.html">Фото и видео</a>
             </li>
             <li class="site-list__item">
               <a class="site-list__link" href="form.html">Форма отзыва</a>
@@ -39,21 +41,21 @@
       </section>
       <section class="form">
         <form class="form-user" method="post" action="https://echo.htmlacademy.ru" >
-          <div class="form-user_name">
+          <div class="form-user__name">
             <p class="form-user__title">Представьтесь:</p>
-            <label class="form-user_naming" for="name">Имя*:</label>
+            <label class="form-user__naming" for="name">Имя*:</label>
             <input class="form-user__inputtext" id="name" type="text" name="name" required>
-            <label class="form-user_naming" for="secondname">Фамилия*:</label>
+            <label class="form-user__naming" for="secondname">Фамилия*:</label>
             <input class="form-user__inputtext" id="secondname" type="text" name="secondname" required>
-            <label class="form-user_naming" for="patronymic">Отчество:</label>
+            <label class="form-user__naming" for="patronymic">Отчество:</label>
             <input class="form-user__inputtext" id="patronymic" type="text" name="patronymic">
           </div>
           <div class="form-user__contact">
             <p class="form-user__contact-title">Контактная информация:</p>
             <label class="form-user__contact-tel" for="tel">Контактный телефон*</label>
-            <input id="tel" type="text" placeholder="Введите телефон" name="tel" required>
+            <input class="form-user__contact-input" id="tel" type="text" placeholder="Введите телефон" name="tel" required>
             <label class="form-user__contact-mail" for="email">Электронная почта*</label>
-            <input id="email" type="text" placeholder="Введите e-mail" name="email" required>
+            <input class="form-user__contact-input"id="email" type="text" placeholder="Введите e-mail" name="email" required>
           </div>
           <div class="form-user__opinion">
             <p class="form-user__opinion-title">Ваше общее впечатление:</p>
@@ -91,8 +93,11 @@
           </div>
           <div class="form-user__subject">
             <p class="form-user__subject-text">Опишите свои эмоции:</p>
-            <textarea rows="5" cols="30">Опишите подробно все свои восторги</textarea>
-            <p>*_обязательные поля</p>
+            <textarea class="form-user__subject-field" rows="5" cols="23">Опишите подробно все свои восторги</textarea>
+            <a class="form-user__link" href="#">
+              Отправить отзыв
+            </a>
+            <p class="form-user__subject-subtitle">*_обязательные поля</p>
           </div>
         </form>
       </section>

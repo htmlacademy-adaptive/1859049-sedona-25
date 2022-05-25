@@ -1,0 +1,29 @@
+.promo__img-box {
+  margin: 0 0 32px 0;
+}
+
+.promo__wrapper {
+  padding-left: 18px;
+  padding-right: 20px;
+}
+
+.promo__title {
+  color: $color-black;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  margin: 0 0 35px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.promo__text {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+  padding: 0;
+  color: $color-silver;
+  text-decoration: none;
+  text-transform: uppercase;
+}

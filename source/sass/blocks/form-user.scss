@@ -1,0 +1,144 @@
+.form-user__title {
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-user__naming {
+  color: $color-silver;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-user__inputtext {
+  background-color: $color-yvory;
+  width: 280px;
+  height: 58px;
+  margin: 0 20px 37px 20px;
+}
+
+.form-user__contact-title {
+  color: $color-silver;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-user__contact-tel {
+  width: 222px;
+  height: 58px;
+  color: $color-silver;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.form-user__contact-mail {
+  color: $color-silver;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.form-user__contact-input {
+  color: $color-silver;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 37px;
+  margin-left: 20px;
+}
+
+.form-user__opinion-title {
+  color: $color-black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.form-user__opinion-text {
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 36px;
+}
+
+.form-user__attraction-text {
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-user__attraction-name {
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 59px;
+}
+
+.form-user__subject-text {
+  text-transform: uppercase;
+  text-align: center;
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.form-user__subject-field {
+  background-color: $color-yvory;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 16px;
+  margin: 0 20px 56px 20px;
+  color: $color-silver;
+}
+
+.form-user__link {
+  background-color: $color-blue;
+  width: 284px;
+  height: 58px;
+  text-align: center;
+  color: $color-white;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 16.5px;
+  margin-left: 19px;
+}
+
+.form-user__subject-subtitle {
+  text-transform: uppercase;
+  color: $color-silver;
+  text-align: right;
+  font-size: 12px;
+  line-height: 21px;
+  margin-bottom: 52.5px;
+  margin-top: 3px;
+}
